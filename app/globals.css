@@ -1,0 +1,28 @@
+@import './theme.css';
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: var(--bg-primary); 
+  color: var(--text-white);
+  font-size: 0.7rem;
+  
+}
+div h1:hover {
+  color: rgb(181, 242, 242);
+  transition-duration: 0.2s;
+}
+
+.hidden Button {
+  cursor: pointer;
+  background: black;
+  font-size: 0.57rem;
+  font-family: American Typewriter;
+  padding: 8px;
+  height: 1.7rem;
+}
+.hidden Button:hover {
+  background-color: rgb(181, 242, 242);
+  color: black;
+  transition-duration: 0.2s;
+}
+

@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+    --font-primary: Arial;
+    --bg-primary: black;
+    --text-white: #fff;
+}
