@@ -79,7 +79,7 @@ const Project = () => {
                             </div>
 
                             {/* PROJECT TITLE */}
-                            <h1 className="text-[48px] md:text-[65px] leading-[1.1] font-semibold capitalize text-white hover:text-cyan-200 transition-all">
+                            <h1 className="text-[38px] md:text-[65px] leading-[1.1] font-semibold capitalize text-white hover:text-cyan-200 transition-all">
                                 {project.title}
                             </h1>
 
