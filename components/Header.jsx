@@ -4,6 +4,7 @@ import { Button } from "./ui/button";
 // importing components
 import Nav from "@/components/Nav"
 import { Pointer } from "lucide-react";
+import MobileNav from "./MobileNav";
 
 
 const Header = () => {
@@ -11,8 +12,8 @@ const Header = () => {
             <div className="container mx-auto flex justify-between items-center">
                 {/* logo */}
                 <Link href="/">
-                <h1 className="text-xl font-semibold">
-                    Kushal <span className="text-cyan-200">.</span>
+                <h1 className="text-xl font-semibold text-[2.5rem] mt-[-1rem]">
+                    Kushal<span className="text-cyan-200">.</span>
                 </h1>
                 </Link>
 
@@ -22,16 +23,15 @@ const Header = () => {
                 {/* Desktop Nav and Hire Button*/}
                 <div className="hidden sm:flex items-center gap-8">
                     <Nav />
-                    <Link href="/contact">
-                        <Button className="text-cyan-200">Hire me</Button>
-                    </Link>
                 </div>
 
-                {/* Desktop Nav and Hire Button*/}
-                <div className="sm:hidden">Mobile Nav</div>
+                {/*  Nav and Hire Button*/}
+                <div className="sm:hidden">
+                    <MobileNav />
+                </div>
                 
             </div>
         </header>
 }
 
-export default Header
+export default Header;

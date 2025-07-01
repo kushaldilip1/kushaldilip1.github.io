@@ -1,10 +1,11 @@
 @import './theme.css';
 
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background: var(--bg-primary); 
   color: var(--text-white);
-  font-size: 0.7rem;
+  font-size: 1.1rem;
+  padding-left: 1rem;
   
 }
 div h1:hover {
@@ -14,8 +15,9 @@ div h1:hover {
 
 .hidden Button {
   cursor: pointer;
-  background: black;
-  font-size: 0.57rem;
+  background: turquoise;
+  color: black;
+  font-size: 1rem;
   font-family: American Typewriter;
   padding: 8px;
   height: 1.7rem;
@@ -24,5 +26,49 @@ div h1:hover {
   background-color: rgb(181, 242, 242);
   color: black;
   transition-duration: 0.2s;
+}
+.btn {
+  cursor: pointer;
+  background: turquoise;
+  color: black;
+  font-size: 1rem;
+  font-family: American Typewriter;
+  padding: 1.7rem;
+  height: 1.7rem;
+}
+.btn:hover {
+  background-color: rgb(181, 242, 242);
+  color: black;
+  transition-duration: 0.2s;
+}
+
+.navs {
+  margin-top: -6rem;
+}
+.logo-icon {
+  margin-right: 2rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+/*-------   HOME PAGE   --------*/
+.h1 {
+  font-weight: 600;
+}
+
+/*-------   SKILLS PAGE   --------*/
+.text-outline {
+  -webkit-text-stroke: 1px white;
+}
+.text-outline:hover {
+  -webkit-text-stroke: 1px rgb(181, 242, 242);
+}
+
+.skill_page_margin {
+  margin-top: 4rem;
+}
+
+.object-contain {
+  border-radius: 20rem;
 }
 

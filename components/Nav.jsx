@@ -8,16 +8,12 @@ const links = [
         path: "/",
     },
     {
-        name: "services",
-        path: "/services",
+        name: "skills",
+        path: "/skills",
     },
     {
-        name: "resume",
-        path: "/resume",
-    },
-    {
-        name: "work",
-        path: "/work",
+        name: "projects",
+        path: "/projects",
     },
     {
         name: "contact",
@@ -29,7 +25,7 @@ const links = [
 const Nav = () => {
     const pathname = usePathname();
     console.log(pathname);
-    return <nav className="gap-6 inline-flex">
+    return <nav className="gap-6 inline-flex justify-center items-center">
         {links.map((link, index) => {
             return (
                 <Link href={link.path} key={index} className={`${link.path === pathname && 
