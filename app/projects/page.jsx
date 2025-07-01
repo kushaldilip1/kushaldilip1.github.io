@@ -36,7 +36,7 @@ const projects = [
         category: 'Full Stack',
         title: 'Get-Veggie food ordering platform',
         description: 'A food ordering website called as Get-Veggie. A final year project dveeloped with the intention of promoting fresh deliverables out of the local farmers as well as promoting the local farmers for a positive exposition to the mainstream. Throught this website, the customers are well informed about the origin of the deliverables and a subscription-enabled chatbot is in place to aid further queries. For more information, please visit the website ...',
-        stack: [{name: 'Html'}, {name: 'Css'}, {name: 'JavaScript'}, {name: 'PHP'}, {name: 'XAMPP'}, {name: 'MySQL database'}],
+        stack: [{name: 'Html'}, {name: 'Css'}, {name: 'JavaScript'}, {name: 'PHP'}, {name: 'XAMPP'}, {name: 'MySQL'}],
         image: "/assets/work/Get_Veggie.png",
         live: "",
         github: "",
@@ -79,17 +79,17 @@ const Project = () => {
                             </div>
 
                             {/* PROJECT TITLE */}
-                            <h1 className="text-[38px] md:text-[65px] leading-[1.1] font-semibold capitalize text-white hover:text-cyan-200 transition-all">
+                            <h1 className="text-[28px] md:text-[65px] leading-[1.1] font-semibold capitalize text-white hover:text-cyan-200 transition-all">
                                 {project.title}
                             </h1>
 
                             {/* PROJECT CATEGORY */}
-                            <h2 className="text-[36px] md:text-[48px] leading-[1.1] font-semibold capitalize text-white/60 hover:text-cyan-200 transition-all">
+                            <h2 className="text-[26px] md:text-[48px] leading-[1.1] font-semibold capitalize text-white/60 hover:text-cyan-200 transition-all">
                                 {project.category}
                             </h2>
 
                             {/* PROJECT DESCRIPTION */}
-                            <p className="text-white/60">
+                            <p className="text-white/60 w-[25rem]">
                                 {project.description}
                             </p>
 
