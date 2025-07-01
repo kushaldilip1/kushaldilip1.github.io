@@ -26,7 +26,7 @@ const projects = [
         category: 'frontend',
         title: 'University main page',
         description: 'A university page created with the objective of module selection tool. As it was a group project, I was assigned the design the user interface of the website. For more information, please visit the website ...',
-        stack: [{name: 'Html'}, {name: 'Css'}, {name: 'JavaScript'}],
+        stack: [{name: 'HTML'}, {name: 'CSS'}, {name: 'JavaScript'}],
         image: "/assets/work/School_UI.png",
         live: "",
         github: "",
@@ -35,8 +35,8 @@ const projects = [
         num: '02',
         category: 'Full Stack',
         title: 'Get-Veggie food ordering platform',
-        description: 'A food ordering website called as Get-Veggie. A final year project dveeloped with the intention of promoting fresh deliverables out of the local farmers as well as promoting the local farmers for a positive exposition to the mainstream. Throught this website, the customers are well informed about the origin of the deliverables and a subscription-enabled chatbot is in place to aid further queries. For more information, please visit the website ...',
-        stack: [{name: 'Html'}, {name: 'Css'}, {name: 'JavaScript'}, {name: 'PHP'}, {name: 'XAMPP'}, {name: 'MySQL'}],
+        description: 'A food ordering website called as Get-Veggie. A final year project developed with the intention of promoting fresh deliverables out of the local farmers as well as promoting the local farmers for a positive exposition to the mainstream. Through this website, the customers are well informed about the origin of the deliverables and a subscription-enabled chatbot is in place to aid further queries. For more information, please visit the website ...',
+        stack: [{name: 'HTML'}, {name: 'CSS'}, {name: 'JavaScript'}, {name: 'PHP'}, {name: 'XAMPP'}, {name: 'MySQL'}],
         image: "/assets/work/Get_Veggie.png",
         live: "",
         github: "",
@@ -89,12 +89,12 @@ const Project = () => {
                             </h2>
 
                             {/* PROJECT DESCRIPTION */}
-                            <p className="text-white/60 w-[25rem]">
+                            <p className="text-white/60 w-[23rem] leading-[1.1]">
                                 {project.description}
                             </p>
 
                             {/* STACK */}
-                            <ul className="flex gap-4">
+                            <ul className=" md:flex  gap-2">
                                 {project.stack.map((item, num) => {
                                     return (
                                         <li key={num} className="text-xl text-cyan-200">
