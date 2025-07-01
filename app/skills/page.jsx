@@ -205,7 +205,7 @@ const SkillSection = ({ title, data }) => {
     return (
         <section className="flex flex-col justify-center-safe py-12 md:py-0  mt-8 mb-[8rem]">
             <div className="container mx-auto">
-                <h1 className="mb-[2rem] text-6xl font-bold text-outline text-transparent">{title}</h1>
+                <h1 className="mb-[2rem] text-5xl font-bold text-outline text-transparent">{title}</h1>
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{
