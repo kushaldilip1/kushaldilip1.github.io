@@ -89,7 +89,7 @@ const Project = () => {
                             </h2>
 
                             {/* PROJECT DESCRIPTION */}
-                            <p className="text-white/60 w-[23rem] leading-[1.1]">
+                            <p className="text-white/60 w-[20rem] md:w-full leading-[1.1]">
                                 {project.description}
                             </p>
 
