@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
-        <div className="flex flex-col md:flex-row items-center justify-between md:pt-8 md:pb-24 ml-[-1rem]">
+        <div className="flex flex-col md:flex-row items-center justify-between md:pt-8 md:pb-24 ml-[-1rem] md:mt-[10rem]">
           {/* Text */}
           <div className="text-center md:text-left order-2 md:order-none">
             <span className="text-[1.2rem]">CompSci Graduate</span>
