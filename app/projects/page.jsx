@@ -121,7 +121,7 @@ const Project = () => {
                             {/* Buttons and tooltip */}
                             <div className="flex items-center gap-4 justify-end mt-[-1rem]">
                                 {/* Live Project Button */}
-                                <Link href={project.live}>
+                                <Link href={project.live} target="_blank">
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] rounded-full
@@ -136,7 +136,7 @@ const Project = () => {
                                 </Link>
 
                                 {/* GitHub Project Button */}
-                                <Link href={project.github}>
+                                <Link href={project.github} target="_blank">
                                     <TooltipProvider>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] rounded-full
