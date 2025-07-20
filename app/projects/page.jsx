@@ -28,8 +28,8 @@ const projects = [
         description: 'A university page created with the objective of module selection tool. As it was a group project, I was assigned the design the user interface of the website. For more information, please visit the website ...',
         stack: [{name: 'HTML'}, {name: 'CSS'}, {name: 'JavaScript'}],
         image: "/assets/work/School_UI.png",
-        live: "",
-        github: "",
+        live: "https://kushaldilip1.github.io/University_UI",
+        github: "https://github.com/kushaldilip1/University_UI",
     },
     {
         num: '02',
@@ -38,8 +38,8 @@ const projects = [
         description: 'A food ordering website called as Get-Veggie. A final year project developed with the intention of promoting fresh deliverables out of the local farmers as well as promoting the local farmers for a positive exposition to the mainstream. Through this website, the customers are well informed about the origin of the deliverables and a subscription-enabled chatbot is in place to aid further queries. For more information, please visit the website ...',
         stack: [{name: 'HTML'}, {name: 'CSS'}, {name: 'JavaScript'}, {name: 'PHP'}, {name: 'XAMPP'}, {name: 'MySQL'}],
         image: "/assets/work/Get_Veggie.png",
-        live: "",
-        github: "",
+        live: "https://github.com/kushaldilip1/Kushal_Dilip_FYP",
+        github: "https://github.com/kushaldilip1/Kushal_Dilip_FYP",
     },
     {
         num: '03',
@@ -48,7 +48,7 @@ const projects = [
         description: 'A Pacman Game developed with the objective of learning game mechanisms and for further practice and knowledge expansion. An attempt to bring the retro arcade classic Pacman to life. It is open for feedback, so do not hesitate to contact me.',
         stack: [{name: 'HTML'}, {name: 'JavaScript'}],
         image: "/assets/work/Pacman.png",
-        live: "http://kushaldilip1.github.io/Pacman_Game",
+        live: "https://kushaldilip1.github.io/Pacman_Game",
         github: "https://github.com/kushaldilip1/Pacman_Game",
     },
 ];
