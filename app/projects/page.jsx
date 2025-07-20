@@ -41,6 +41,16 @@ const projects = [
         live: "",
         github: "",
     },
+    {
+        num: '03',
+        category: 'Game',
+        title: 'Pacman Game',
+        description: 'A Pacman Game developed with the objective of learning game mechanisms and for further practice and knowledge expansion. An attempt to bring the retro arcade classic Pacman to life. It is open for feedback, so do not hesitate to contact me.',
+        stack: [{name: 'HTML'}, {name: 'JavaScript'}],
+        image: "/assets/work/Pacman.png",
+        live: "http://kushaldilip1.github.io/Pacman_Game",
+        github: "https://github.com/kushaldilip1/Pacman_Game",
+    },
 ];
 
 
