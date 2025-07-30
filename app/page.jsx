@@ -26,7 +26,7 @@ const Home = () => {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <Button className="btn uppercase flex items-center gap-2"
                       variant="outline">
-                <a href="https://drive.google.com/file/d/1VmvStXropBdYBUc0d5Im-OtPC9MmUe-0/view" target="blank"><span>Open CV</span></a>
+                <a href="https://drive.google.com/file/d/1gau8fWElJHG_nFDouGZ0So8spJ168uf4/view?usp=sharing" target="blank"><span>Open CV</span></a>
                 <FiDownload className="text-xl"/>
               </Button>
               <div className="mb-8 md:mb-0">
